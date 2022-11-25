@@ -1,9 +1,11 @@
-
+import styled from '@emotion/styled'
 
 export default function App() {
   return (
-    <div>
+    <AppContainer>
       <h1>Hello World</h1>
-    </div>
+    </AppContainer>
   );
 }
+
+const AppContainer = styled.div``
